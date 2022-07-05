@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb/base"],
+  "rules": {
+    "no-console":"off",
+    "no-plusplus":"off",
+    "eol-last":"off",
+    "max-len":["error", 150],
+    // "no-tabs":"off",
+    // "semi":"off",
+    "prefer-destructuring":"off",
+    "comma-dangle":"off",
+    "no-multiple-empty-lines":"off",
+    "linebreak-style":"off",
+    "prefer-const":"off",
+    "no-nested-ternary":"off",
+    "no-underscore-dangle":"off",
+    "max-classes-per-file":"off",
+    "one-var":"off",
+    "one-var-declaration-per-line":"off",
+    // "no-param-reassign":"off"
+    "prefer-template":"off",
+    "func-names":"off",
+    "object-curly-newline":"off",
+    "import/extensions":"off",
+    "quotes":"off"
+  }
+}
